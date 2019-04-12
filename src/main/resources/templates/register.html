@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Registration</title>
+</head>
+<body>
+	Registration
+	<form name="register" th:action="@{/registration}" method="post">
+		userId : <input type="text" name="userId" id="userId" /> <br />
+		name : <input type="text" name="username" id="username" /> <br />
+		password :<input type="text" name="password" id="password" /> <br />
+		telephone : <input type="text" name="usertel" id="usertel" /> <br />
+		Description : <input type="text" name="desc" id="desc" /> <br />
+		ADMIN <input type="checkbox" name="roles" value="ADMIN" /> | USER <input
+			type="checkbox" name="roles" value="USER" />
+		<hr />
+		<input type="submit" value="join" />
+	</form>
+
+</body>
+</html>
