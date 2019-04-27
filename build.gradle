@@ -41,7 +41,7 @@ dependencies {
 	testImplementation('io.projectreactor:reactor-test')
 	testImplementation('org.springframework.restdocs:spring-restdocs-mockmvc')
     compile('org.springframework.boot:spring-boot-starter-jdbc')
-    compileOnly('org.projectlombok:lombok:1.16.20')
+    compile('org.projectlombok:lombok:1.16.20')
     annotationProcessor 'org.projectlombok:lombok:1.16.20'
 	compile 'org.json:json:20171018'
 	compile('org.springframework.boot:spring-boot-starter-security')
